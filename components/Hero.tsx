@@ -115,14 +115,17 @@ export default function Hero() {
               <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
             </motion.a>
 
-            <motion.button
+            <motion.a
+              href="https://chef-ai-taupe.vercel.app/"
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="border-2 border-primary text-primary px-8 py-4 rounded-full font-bold text-lg hover:bg-primary/5 transition-colors flex items-center space-x-2"
             >
               <ChefHat className="w-5 h-5" />
               <span>Watch Demo</span>
-            </motion.button>
+            </motion.a>
           </motion.div>
 
           {/* Hero Image/Illustration */}

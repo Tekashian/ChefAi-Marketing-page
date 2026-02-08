@@ -1,4 +1,4 @@
-# 🍳 ChefAI Marketing Page
+# ChefAI Marketing Page
 
 ![ChefAI Banner](https://img.shields.io/badge/ChefAI-Marketing%20Page-FF6B35?style=for-the-badge&logo=chef&logoColor=white)
 ![Next.js](https://img.shields.io/badge/Next.js-14.2-black?style=for-the-badge&logo=next.js)
@@ -7,16 +7,16 @@
 
 A stunning, animated marketing landing page for **ChefAI** - an intelligent culinary assistant powered by AI. Built with Next.js 14, TypeScript, Tailwind CSS, and Framer Motion.
 
-## ✨ Features
+## Features
 
-- 🎨 **Modern Design** - Clean, professional UI with gradient accents
-- ⚡ **Smooth Animations** - Framer Motion powered animations throughout
-- 📱 **Fully Responsive** - Mobile-first design that looks great on all devices
-- 🚀 **Optimized Performance** - Fast loading and smooth scrolling
-- 🎯 **SEO Ready** - Built-in metadata and OpenGraph tags
-- 🌐 **Ready for Production** - Optimized for Vercel deployment
+- **Modern Design** - Clean, professional UI with gradient accents
+- **Smooth Animations** - Framer Motion powered animations throughout
+- **Fully Responsive** - Mobile-first design that looks great on all devices
+- **Optimized Performance** - Fast loading and smooth scrolling
+- **SEO Ready** - Built-in metadata and OpenGraph tags
+- **Ready for Production** - Optimized for Vercel deployment
 
-## 🎯 Sections
+## Sections
 
 1. **Hero** - Eye-catching introduction with animated CTAs
 2. **Features** - 8 core features with icons and descriptions
@@ -25,7 +25,7 @@ A stunning, animated marketing landing page for **ChefAI** - an intelligent culi
 5. **CTA** - Final call-to-action with trust badges
 6. **Footer** - Links, newsletter signup, and social media
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -64,14 +64,14 @@ pnpm dev
 
 Navigate to [http://localhost:3000](http://localhost:3000)
 
-## 📦 Build for Production
+## Build for Production
 
 ```bash
 npm run build
 npm start
 ```
 
-## 🚢 Deploy to Vercel
+## Deploy to Vercel
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new)
 
@@ -90,7 +90,7 @@ npm i -g vercel
 vercel
 ```
 
-## 🎨 Color Palette
+## Color Palette
 
 ```css
 Primary: #FF6B35 (Orange)
@@ -99,7 +99,7 @@ Dark: #1A1A1D (Near Black)
 Light: #F7F7F7 (Off White)
 ```
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Framework:** Next.js 14 (App Router)
 - **Language:** TypeScript
@@ -108,7 +108,7 @@ Light: #F7F7F7 (Off White)
 - **Icons:** Lucide React
 - **Deployment:** Vercel
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ChefAiMarketingPage/
@@ -133,41 +133,44 @@ ChefAiMarketingPage/
 └── package.json            # Dependencies
 ```
 
-## 🎯 Key Features Implemented
+## Key Features Implemented
 
 ### Animations
-- ✅ Smooth scroll-triggered animations
-- ✅ Hover effects on cards and buttons
-- ✅ Floating elements in hero section
-- ✅ Animated background gradients
-- ✅ Staggered list animations
-- ✅ Page transition effects
+
+- Smooth scroll-triggered animations
+- Hover effects on cards and buttons
+- Floating elements in hero section
+- Animated background gradients
+- Staggered list animations
+- Page transition effects
 
 ### Responsiveness
-- ✅ Mobile-first approach
-- ✅ Tablet optimizations
-- ✅ Desktop enhancements
-- ✅ Flexible grid layouts
-- ✅ Responsive typography
+
+- Mobile-first approach
+- Tablet optimizations
+- Desktop enhancements
+- Flexible grid layouts
+- Responsive typography
 
 ### Performance
-- ✅ Optimized images (Next/Image)
-- ✅ Code splitting
-- ✅ Lazy loading animations
-- ✅ Minimal bundle size
-- ✅ Fast page loads
 
-## 🔮 Future Enhancements
+- Optimized images (Next/Image)
+- Code splitting
+- Lazy loading animations
+- Minimal bundle size
+- Fast page loads
+
+## Future Enhancements
 
 The marketing page highlights upcoming features:
 
-- 🧠 **AI Recipe Analysis** - Michelin-star recipes from available ingredients
-- 🎤 **Voice Control** - Complete hands-free cooking experience
-- 📸 **Ingredient Recognition** - Photo-based fridge scanning
-- ⭐ **Personalized Meal Plans** - AI-driven custom meal planning
-- ⚡ **Real-time Assistance** - Live cooking guidance and tips
+- **AI Recipe Analysis** - Michelin-star recipes from available ingredients
+- **Voice Control** - Complete hands-free cooking experience
+- **Ingredient Recognition** - Photo-based fridge scanning
+- **Personalized Meal Plans** - AI-driven custom meal planning
+- **Real-time Assistance** - Live cooking guidance and tips
 
-## 📝 Customization
+## Customization
 
 ### Update Colors
 
@@ -192,7 +195,7 @@ Create a new component in `components/` and import it in `app/page.tsx`.
 
 All text content is in the respective component files - easy to update without affecting structure.
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Feel free to:
 
@@ -202,11 +205,11 @@ Contributions are welcome! Feel free to:
 4. Push to the branch
 5. Open a Pull Request
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
-## 💬 Contact
+## Contact
 
 For questions or feedback about ChefAI:
 
@@ -220,6 +223,6 @@ For questions or feedback about ChefAI:
 
 **[View Demo](https://chefai-marketing.vercel.app)** • **[Report Bug](https://github.com/chefai/issues)** • **[Request Feature](https://github.com/chefai/issues)**
 
-Made with ❤️ for home chefs everywhere
+Made with love for home chefs everywhere
 
 </div>
