@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X } from "lucide-react";
+import { Menu, X, ChefHat } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 
 export default function Navbar() {
@@ -69,14 +69,14 @@ export default function Navbar() {
           {/* Logo */}
           <motion.a
             href="#"
-            className="flex items-center space-x-2"
+            className="flex items-center gap-2 group"
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
           >
-            <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-              <span className="text-2xl">👨‍🍳</span>
+            <div className="bg-gradient-to-br from-primary to-secondary rounded-xl p-2 shadow-md group-hover:shadow-lg transition-shadow">
+              <ChefHat className="w-6 h-6 text-white" />
             </div>
-            <span className="text-2xl font-bold text-dark">
+            <span className="text-xl font-bold text-gray-900">
               Chef<span className="text-gradient">AI</span>
             </span>
           </motion.a>
