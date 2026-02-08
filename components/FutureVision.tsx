@@ -111,8 +111,8 @@ export default function FutureVision() {
             <span className="text-gradient"> Smart Cooking</span>
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We're building the next generation of culinary AI that will
-            revolutionize how you cook and create in the kitchen
+            We&apos;re building the next generation of culinary AI that will revolutionize
+            how you cook and create in the kitchen
           </p>
         </motion.div>
 
@@ -153,9 +153,7 @@ export default function FutureVision() {
                   <h3 className="text-2xl font-bold text-dark mb-4 group-hover:text-gradient transition-all">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {feature.description}
-                  </p>
+                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
 
                   {/* Coming Soon Badge */}
                   <div className="mt-6 inline-flex items-center text-sm text-primary font-semibold">
@@ -187,16 +185,14 @@ export default function FutureVision() {
             >
               🌟
             </motion.div>
-            <h3 className="text-3xl font-bold text-dark mb-4">
-              Our Vision
-            </h3>
+            <h3 className="text-3xl font-bold text-dark mb-4">Our Vision</h3>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Imagine having a Michelin-star chef in your pocket. ChefAI will
-              analyze what you have in your fridge—even if it's just a cucumber
-              and salt—and guide you through creating a restaurant-quality dish
-              with detailed, professional techniques. Combined with voice
-              control, you'll cook hands-free while receiving real-time AI
-              guidance, making every meal an extraordinary culinary experience.
+              Imagine having a Michelin-star chef in your pocket. ChefAI will analyze what
+              you have in your fridge—even if it&apos;s just a cucumber and salt—and guide
+              you through creating a restaurant-quality dish with detailed, professional
+              techniques. Combined with voice control, you&apos;ll cook hands-free while
+              receiving real-time AI guidance, making every meal an extraordinary culinary
+              experience.
             </p>
           </div>
         </motion.div>
