@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Twitter, Mail, Heart } from "lucide-react";
+import { Github, Twitter, Mail, Heart, ChefHat } from "lucide-react";
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -38,17 +38,17 @@ export default function Footer() {
               transition={{ duration: 0.5 }}
               viewport={{ once: true }}
             >
-              <div className="flex items-center space-x-2 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-primary to-secondary rounded-lg flex items-center justify-center">
-                  <span className="text-2xl">👨‍🍳</span>
+              <div className="flex items-center gap-2 mb-4">
+                <div className="bg-gradient-to-br from-primary to-secondary rounded-xl p-2 shadow-md">
+                  <ChefHat className="w-6 h-6 text-white" />
                 </div>
-                <span className="text-2xl font-bold">
+                <span className="text-xl font-bold">
                   Chef<span className="text-gradient">AI</span>
                 </span>
               </div>
               <p className="text-gray-400 mb-6 leading-relaxed">
-                Your intelligent culinary assistant powered by AI. Transform your
-                cooking experience with smart recipe management and voice control.
+                Your intelligent culinary assistant powered by AI. Transform your cooking
+                experience with smart recipe management and voice control.
               </p>
               {/* Social Links */}
               <div className="flex space-x-4">
@@ -135,9 +135,7 @@ export default function Footer() {
           viewport={{ once: true }}
           className="border-t border-white/10 pt-8 flex flex-col md:flex-row items-center justify-between text-sm text-gray-400"
         >
-          <p className="mb-4 md:mb-0">
-            © {currentYear} ChefAI. All rights reserved.
-          </p>
+          <p className="mb-4 md:mb-0">© {currentYear} ChefAI. All rights reserved.</p>
           <p className="flex items-center space-x-1">
             <span>Made with</span>
             <motion.span
