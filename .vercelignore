@@ -1,0 +1,28 @@
+# ChefAI Marketing Page
+
+Professional marketing landing page for ChefAI application.
+
+## Quick Start
+
+```bash
+npm install
+npm run dev
+```
+
+Visit http://localhost:3000
+
+## Deploy
+
+```bash
+npm run build
+vercel deploy
+```
+
+## Features
+
+- ✅ Animated hero section
+- ✅ Feature showcase
+- ✅ Future vision section
+- ✅ Fully responsive
+- ✅ SEO optimized
+- ✅ Production ready
