@@ -24,19 +24,27 @@ export default function Navbar() {
       const targetElement = document.getElementById(targetId);
 
       if (targetElement) {
-        const navbarHeight = 80; // wysokość navbar
-        const targetPosition = targetElement.offsetTop - navbarHeight;
-
-        window.scrollTo({
-          top: targetPosition,
-          behavior: "smooth",
-        });
-      }
-
-      // Zamknij menu po małym opóźnieniu
-      setTimeout(() => {
+        // Zamknij menu natychmiast dla lepszej responsywności
         setIsMobileMenuOpen(false);
-      }, 300);
+
+        // Czekaj aż menu się zamknie, potem scrolluj
+        setTimeout(() => {
+          // Pobierz aktualną wysokość navbara
+          const navbar = document.querySelector("nav");
+          const navbarHeight = navbar ? navbar.getBoundingClientRect().height : 80;
+
+          // Oblicz dokładną pozycję elementu względem obecnego scrollu
+          const elementRect = targetElement.getBoundingClientRect();
+          const absoluteElementTop = elementRect.top + window.pageYOffset;
+          const targetPosition = absoluteElementTop - navbarHeight - 20;
+
+          // Instant scroll bez smooth - działa lepiej na iOS
+          window.scrollTo({
+            top: targetPosition,
+            behavior: "auto",
+          });
+        }, 100);
+      }
     }
   };
 
