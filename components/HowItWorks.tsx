@@ -7,7 +7,7 @@ import { Search, BookMarked, ChefHat, Check } from "lucide-react";
 
 export default function HowItWorks() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.05 });
 
   const steps = [
     {

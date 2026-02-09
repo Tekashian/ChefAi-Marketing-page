@@ -7,7 +7,7 @@ import { Brain, Mic, Sparkles, ChefHat, Camera, Zap } from "lucide-react";
 
 export default function FutureVision() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.05 });
 
   const futureFeatures = [
     {

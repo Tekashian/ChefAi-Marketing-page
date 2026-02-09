@@ -16,7 +16,7 @@ import {
 
 export default function Features() {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, amount: 0.2 });
+  const isInView = useInView(ref, { once: true, amount: 0.05 });
 
   const features = [
     {
@@ -152,9 +152,7 @@ export default function Features() {
                   <h3 className="text-xl font-bold text-dark mb-3 group-hover:text-primary transition-colors">
                     {feature.title}
                   </h3>
-                  <p className="text-gray-600 leading-relaxed">
-                    {feature.description}
-                  </p>
+                  <p className="text-gray-600 leading-relaxed">{feature.description}</p>
                 </div>
               </motion.div>
             );
@@ -174,11 +172,7 @@ export default function Features() {
             { number: "4.9", label: "App Rating" },
             { number: "24/7", label: "AI Support" },
           ].map((stat, index) => (
-            <motion.div
-              key={index}
-              whileHover={{ scale: 1.05 }}
-              className="text-center"
-            >
+            <motion.div key={index} whileHover={{ scale: 1.05 }} className="text-center">
               <div className="text-4xl sm:text-5xl font-bold text-gradient mb-2">
                 {stat.number}
               </div>

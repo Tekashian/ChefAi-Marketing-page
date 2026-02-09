@@ -33,17 +33,22 @@ export default function Navbar() {
           const navbar = document.querySelector("nav");
           const navbarHeight = navbar ? navbar.getBoundingClientRect().height : 80;
 
+          // Dla wszystkich sekcji z animacjami scrollujemy tak, aby nagłówek był widoczny tuż pod navbarem
+          // Używamy ujemnego offsetu, aby sekcja była wyżej i animacje się odpaliły
+          const sectionsWithAnimations = ["features", "how-it-works", "future"];
+          const additionalOffset = sectionsWithAnimations.includes(targetId) ? -30 : 20;
+
           // Oblicz dokładną pozycję elementu względem obecnego scrollu
           const elementRect = targetElement.getBoundingClientRect();
           const absoluteElementTop = elementRect.top + window.pageYOffset;
-          const targetPosition = absoluteElementTop - navbarHeight - 20;
+          const targetPosition = absoluteElementTop - navbarHeight - additionalOffset;
 
-          // Instant scroll bez smooth - działa lepiej na iOS
+          // Smooth scroll dla lepszego UX na mobile
           window.scrollTo({
             top: targetPosition,
-            behavior: "auto",
+            behavior: "smooth",
           });
-        }, 100);
+        }, 300);
       }
     }
   };
